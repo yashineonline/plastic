@@ -14,15 +14,6 @@ A Vue 3 + Vite + Tailwind + daisyUI + PWA starter app, organized in a Vitesse-st
   - South Africa relevant cleanup links
   - free documentaries and videos
 
-## Recommended naming
-
-- Suggested GitHub org/account: `plastic-planet-africa`
-- Suggested repository: `plastic-planet-sa-pwa`
-
-These are clarity-based suggestions only. Check availability on GitHub before creating them.
-
-## Why this direction fits your notes
-
 This prototype is designed around the meeting idea of making plastics feel useful and visible rather than disposable. It combines:
 
 - accessibility for the public and schools
@@ -31,9 +22,9 @@ This prototype is designed around the meeting idea of making plastics feel usefu
 - South Africa and Global South relevance
 - a free, GitHub-hosted starting point
 
-## What I found about Refilwe Mofokeng
+## About Refilwe Mofokeng
 
-From public sources, Dr Refilwe Mofokeng is listed as a postdoctoral fellow at Stellenbosch University, with work connected to climate and environmental contamination, and she has public-facing activity around plastics, recycling, and the Plastic Planet podcast. Relevant public pages include Stellenbosch researcher profile and publications on microplastics / heavy metals.
+Dr Refilwe Mofokeng is a postdoctoral fellow at Stellenbosch University, with work connected to climate and environmental contamination, and she has public-facing activity around plastics, recycling, and the Plastic Planet podcast. She has publications on microplastics / heavy metals.
 
 ## Free resources included in the app
 
@@ -48,48 +39,7 @@ The starter app links to public resources such as:
 - Save a Fishie Coast 2 Coast
 - PBS / YouTube free videos on ocean plastic pollution
 
-## Deploy on GitHub Pages
-
-### One-time GitHub setup
-
-1. Create a GitHub repository.
-2. Upload the contents of this zip to the repository root.
-3. Push to the `main` branch.
-4. In GitHub:
-   - go to **Settings → Pages**
-   - ensure **Build and deployment** is set to **GitHub Actions**
-5. Push again if needed.
-
-After that, the included workflow will:
-
-- run `npm install`
-- build the app
-- deploy the generated `dist` folder to GitHub Pages
-
-## Run locally in Codespaces or your own machine
-
-```bash
-npm install
-npm run dev
-```
-
-For a production build:
-
-```bash
-npm run build
-npm run preview
-```
-
-## Commands you may need in Codespaces
-
-```bash
-npm install
-npm run dev -- --host
-```
-
-If Codespaces prompts for a forwarded port, open the Vite port in the browser preview.
-
-## Next features I would add
+## Next upcoming features
 
 - image upload and classification placeholder
 - map of local plastic hotspots
